@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="div1">
+      <h2>Login</h2>
+      <form>
+        <div class="user-box">
+          <input type="text" id="usuario">
+          <label>Usuario</label>
+        </div>
+        <div class="user-box">
+          <input type="password" id="contraseña" >
+          <label>Contraseña</label>
+        </div>
+        <button type="submit" onclick="login()">
+          INGRESAR
+        </button>
+        <div id="mensaje-error">
+          Credenciales incorrectas. Nombre de usuario o contraseña no válidos.
+        </div>
+      </form>
+      <script src="login.js"></script>
+    </div>
+  </body>
+</html>
